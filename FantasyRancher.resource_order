@@ -18,5 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_slime","order":1,"path":"sprites/spr_slime/spr_slime.yy",},
+    {"name":"spr_fence","order":3,"path":"sprites/spr_fence/spr_fence.yy",},
+    {"name":"spr_tree","order":2,"path":"sprites/spr_tree/spr_tree.yy",},
   ],
 }
