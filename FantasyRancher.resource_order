@@ -17,8 +17,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player_left_idle","order":7,"path":"sprites/spr_player_left_idle/spr_player_left_idle.yy",},
     {"name":"spr_slime","order":1,"path":"sprites/spr_slime/spr_slime.yy",},
     {"name":"spr_fence","order":3,"path":"sprites/spr_fence/spr_fence.yy",},
     {"name":"spr_tree","order":2,"path":"sprites/spr_tree/spr_tree.yy",},
+    {"name":"spr_player_up_walk","order":8,"path":"sprites/spr_player_up_walk/spr_player_up_walk.yy",},
+    {"name":"spr_player_left_walk","order":6,"path":"sprites/spr_player_left_walk/spr_player_left_walk.yy",},
+    {"name":"spr_player_down_walk","order":4,"path":"sprites/spr_player_down_walk/spr_player_down_walk.yy",},
+    {"name":"spr_player_down_idle","order":5,"path":"sprites/spr_player_down_idle/spr_player_down_idle.yy",},
+    {"name":"spr_player_up_idle","order":9,"path":"sprites/spr_player_up_idle/spr_player_up_idle.yy",},
   ],
 }
