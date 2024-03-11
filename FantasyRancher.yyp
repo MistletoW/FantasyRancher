@@ -73,6 +73,7 @@
     {"id":{"name":"obj_fence","path":"objects/obj_fence/obj_fence.yy",},},
     {"id":{"name":"obj_tree_wilds","path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
+    {"id":{"name":"spr_toadstool","path":"sprites/spr_toadstool/spr_toadstool.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"obj_untilled_dirt","path":"objects/obj_untilled_dirt/obj_untilled_dirt.yy",},},
     {"id":{"name":"spr_player_up_walk","path":"sprites/spr_player_up_walk/spr_player_up_walk.yy",},},
