@@ -11,17 +11,6 @@ player_inventory_slots = 10;
 player_inventory = Inventory_init(player_inventory_slots);
 
 
-
-// test for inventory 
-/*
-	 if (Inventory_adding(player_inventory,1,3)){
-	 show_debug_message("Attempting to add item to inventor");
-	  }
-*/
-
-
-
-
 // marketing
 global.playergold = 100;
 
