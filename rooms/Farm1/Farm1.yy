@@ -229,7 +229,6 @@
     {"name":"inst_752BF9E9","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_1F56384A","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_66942FCC","path":"rooms/Farm1/Farm1.yy",},
-    {"name":"inst_299AA6DB","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_47E588CA","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_46BBC5DF","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_27D53397","path":"rooms/Farm1/Farm1.yy",},
@@ -592,7 +591,6 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66942FCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_untilled_dirt","path":"objects/obj_untilled_dirt/obj_untilled_dirt.yy",},"properties":[],"rotation":0.0,"scaleX":0.4375,"scaleY":0.375,"x":-64.0,"y":-32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_299AA6DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player_farms","path":"objects/obj_player_farms/obj_player_farms.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_field","path":"sprites/spr_field/spr_field.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
