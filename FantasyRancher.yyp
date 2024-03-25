@@ -46,7 +46,6 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_player_left_idle","path":"sprites/spr_player_left_idle/spr_player_left_idle.yy",},},
     {"id":{"name":"spr_rope_throw","path":"sprites/spr_rope_throw/spr_rope_throw.yy",},},
-    {"id":{"name":"Farm1","path":"rooms/Farm1/Farm1.yy",},},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"spr_field","path":"sprites/spr_field/spr_field.yy",},},
     {"id":{"name":"obj_tilled_dirt","path":"objects/obj_tilled_dirt/obj_tilled_dirt.yy",},},
@@ -102,7 +101,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Farm1","path":"rooms/Farm1/Farm1.yy",},},
     {"roomId":{"name":"House","path":"rooms/House/House.yy",},},
     {"roomId":{"name":"SlimeWilds","path":"rooms/SlimeWilds/SlimeWilds.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
