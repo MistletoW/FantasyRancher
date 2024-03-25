@@ -293,7 +293,6 @@
     {"name":"inst_14A2EEFC","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_3FF14023","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_4C6C57D","path":"rooms/Farm1/Farm1.yy",},
-    {"name":"inst_3339F716","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_4AEAB684","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_14C72C2A","path":"rooms/Farm1/Farm1.yy",},
     {"name":"inst_79064125","path":"rooms/Farm1/Farm1.yy",},
@@ -416,9 +415,7 @@
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3339F716","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player_farms","path":"objects/obj_player_farms/obj_player_farms.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":608.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Trees","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A7C2989","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tree_wilds","path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":32.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B151E72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tree_wilds","path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":96.0,"y":32.0,},
