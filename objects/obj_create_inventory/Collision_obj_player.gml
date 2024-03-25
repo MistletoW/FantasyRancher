@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-inventory = ds_map_create();
-size = 15;
 
-
-
+var size = argument[0];
+var inventory = ds_map_create();
 inventory[? "size"] = size;
 inventory[? "slots"] = ds_list_create();
 for (var i = 0; i < size; i++) {
@@ -13,7 +11,6 @@ for (var i = 0; i < size; i++) {
     slot[? "quantity"] = 0;
     ds_list_add(inventory[? "slots"], slot);
 }
-
 
 
 

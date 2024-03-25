@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Inventory_search",
+  "name": "Inventory_removeitem",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

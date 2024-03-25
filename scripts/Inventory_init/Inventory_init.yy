@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Inventory_remove",
+  "name": "Inventory_init",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
