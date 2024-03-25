@@ -54,6 +54,7 @@
     {"name":"Path","order":4,"path":"rooms/Path/Path.yy",},
     {"name":"obj_wilds_controller","order":3,"path":"objects/obj_wilds_controller/obj_wilds_controller.yy",},
     {"name":"obj_slime","order":1,"path":"objects/obj_slime/obj_slime.yy",},
+    {"name":"Farm1","order":5,"path":"rooms/Farm1/Farm1.yy",},
     {"name":"obj_fence","order":5,"path":"objects/obj_fence/obj_fence.yy",},
     {"name":"obj_tree_wilds","order":4,"path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},
     {"name":"spr_tree","order":1,"path":"sprites/spr_tree/spr_tree.yy",},

@@ -81,6 +81,7 @@
     {"id":{"name":"Path","path":"rooms/Path/Path.yy",},},
     {"id":{"name":"obj_wilds_controller","path":"objects/obj_wilds_controller/obj_wilds_controller.yy",},},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},},
+    {"id":{"name":"Farm1","path":"rooms/Farm1/Farm1.yy",},},
     {"id":{"name":"obj_fence","path":"objects/obj_fence/obj_fence.yy",},},
     {"id":{"name":"obj_tree_wilds","path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
@@ -105,6 +106,7 @@
     {"roomId":{"name":"SlimeWilds","path":"rooms/SlimeWilds/SlimeWilds.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Path","path":"rooms/Path/Path.yy",},},
+    {"roomId":{"name":"Farm1","path":"rooms/Farm1/Farm1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
