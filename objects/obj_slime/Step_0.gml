@@ -6,3 +6,7 @@ if (spooked) {
 	alarm[0] = 600; // go off to get rid of spook effect
 }
 
+// if caught, stop moving
+if (sprite_index == spr_slime_caught) {
+	spd = 0;
+}
