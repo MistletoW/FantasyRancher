@@ -15,3 +15,5 @@ image = spr_dialog_background; // 弹窗背景图片
 text = "欢迎来到我的游戏！";
 // 可以根据需要添加更多属性
 */
+
+
