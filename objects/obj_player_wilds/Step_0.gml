@@ -1,32 +1,38 @@
 /// @description movement
 
-var keyleft = keyboard_check(vk_left);
-var keyright = keyboard_check(vk_right);
-var keyup = keyboard_check(vk_up);
-var keydown = keyboard_check(vk_down);
-
-var move_hor = keyright - keyleft;
-hsp = move_hor * spd;
-
-var move_vert = keyup - keydown;
-vsp = move_vert * spd;
-
-// horizontal collision with trees
-if (place_meeting(x + hsp, y, obj_tree_wilds)) {
-	while (!place_meeting(x + sign(hsp), y, obj_tree_wilds)) {
-		x += sign(hsp);
-	}
-	hsp = 0;
+if (!shooting) {
+	event_inherited();
 }
 
-x += hsp;
-
-// vertical collision with trees
-if (place_meeting(x, y + vsp, obj_tree_wilds)) {
-	while (!place_meeting(x, y + sign(vsp), obj_tree_wilds)) {
-		y += sign(vsp);
-	}
-	vsp = 0;
+// ur not allowed to go beyond boundaries
+if (x > 2500) {
+	x = 2499; // should put these as variables in a controller
+} else if (x < 30) {
+	x = 31;
 }
 
-y += vsp;
+if (y > 1475) {
+	y = 1474;
+} else if (y < 60) {
+	y = 61;
+}
+
+// LASSO STUFF
+
+// don't allow to go beyond max
+if (charge > max_charge) {
+	charge = max_charge;
+}
+
+// shoot upon release
+if (charging == true && !keyboard_check(vk_space)) {
+	charging = false;
+	shooting = true;
+	
+	// play the shooting animation before putting out the rope
+	last_sprite = sprite_index; // we need to return to this after
+	
+	sprite_index = spr_rope_throw;
+	alarm[0] = room_speed; // animation will finish after 1 second/play
+	
+}

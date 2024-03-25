@@ -49,42 +49,6 @@ if(keyDown){
 	}
 }
 
-
-
-
-// Inventory drop
-if (mouse_check_button_pressed(mb_left)) {
-    var mouseX = mouse_x;
-    var mouseY = mouse_y;
-
-    // Loop through slots to check if any button is clicked
-    for (var i = 0; i < player_inventory_slots; i++) {
-        var drawx = startX + i * (slotWidth + gap);
-        var drawy = startY;
-        var buttonX = drawx + slotWidth - buttonWidth - gap;
-        var buttonY = drawy + slotHeight - buttonHeight - gap;
-
-        // Determine if the mouse click is within the bounds of the button
-        if (mouseX >= buttonX && mouseX <= buttonX + buttonWidth &&
-            mouseY >= buttonY && mouseY <= buttonY + buttonHeight) {
-            var slot = ds_list_find_value(player_inventory[? "slots"], i);
-            var itemid = slot[? "item_id"];
-            if (itemid != noone) {
-                // Attempt to remove 1 quantity of the item from this slot
-                if (Inventory_removeitem(player_inventory, itemid, 1)) {
-					switch (itemid) {
-						case 1:
-							instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item_bone);
-							break;
-						case 2:
-							 instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item_slimejelly);
-							break;
-						}
-                    //show_debug_message("Removed one item from slot " + string(i));
-                }
-                break; // Prevents multiple button click from one click
-            }
-        }
-    }
+if(place_meeting(x, y, Obj_home_door) && lastDir >= 2 && room == House){
+	room_goto(Farm1);
 }
-// 
