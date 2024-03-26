@@ -48,7 +48,3 @@ if(keyDown){
 			image_xscale = 1; 
 	}
 }
-
-if(place_meeting(x, y, Obj_home_door) && lastDir >= 2 && room == House){
-	room_goto(Farm1);
-}

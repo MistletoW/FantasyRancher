@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_home_door",
+  "name": "obj_teleporter",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_door_wood",
-    "path": "sprites/spr_door_wood/spr_door_wood.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

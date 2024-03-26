@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_home_door",
+  "name": "obj_teleporter_farmsToPath",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_door_wood",
-    "path": "sprites/spr_door_wood/spr_door_wood.yy",
+    "name": "spr_teleporter_horizontal",
+    "path": "sprites/spr_teleporter_horizontal/spr_teleporter_horizontal.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
