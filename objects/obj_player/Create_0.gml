@@ -17,6 +17,8 @@ global.playergold = 100;
 
 
 
+
+
 //UI darawing variable
 // Configuration for drawing
 slotWidth = 32;
@@ -36,4 +38,4 @@ sry = startY;
 // Configuration for the button
 buttonWidth = 24;
 buttonHeight = 24;
-buttonAlpha = 1; // Button transparency
+buttonAlpha = 0; // Button transparency

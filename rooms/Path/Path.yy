@@ -110,6 +110,7 @@
     {"name":"inst_440F860B","path":"rooms/Path/Path.yy",},
     {"name":"inst_2A3E620B","path":"rooms/Path/Path.yy",},
     {"name":"inst_49129197","path":"rooms/Path/Path.yy",},
+    {"name":"inst_17A31FFA","path":"rooms/Path/Path.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -217,6 +218,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_440F860B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teleporter_pathToWilds","path":"objects/obj_teleporter_pathToWilds/obj_teleporter_pathToWilds.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":5.0,"x":-32.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A3E620B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player_farms","path":"objects/obj_player_farms/obj_player_farms.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49129197","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teleporter_pathToFarms","path":"objects/obj_teleporter_pathToFarms/obj_teleporter_pathToFarms.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":1312.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17A31FFA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_toadstool","path":"objects/obj_toadstool/obj_toadstool.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_field","path":"sprites/spr_field/spr_field.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

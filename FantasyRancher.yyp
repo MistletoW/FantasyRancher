@@ -105,7 +105,7 @@
     {"id":{"name":"spr_player_left_walk","path":"sprites/spr_player_left_walk/spr_player_left_walk.yy",},},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
     {"id":{"name":"Inv_init","path":"scripts/Inv_init/Inv_init.yy",},},
-    {"id":{"name":"Inv_add","path":"scripts/Inv_add/Inv_add.yy",},},
+    {"id":{"name":"Inventory_adding","path":"scripts/Inventory_adding/Inventory_adding.yy",},},
     {"id":{"name":"spr_player_down_walk","path":"sprites/spr_player_down_walk/spr_player_down_walk.yy",},},
     {"id":{"name":"spr_player_down_idle","path":"sprites/spr_player_down_idle/spr_player_down_idle.yy",},},
     {"id":{"name":"spr_player_up_idle","path":"sprites/spr_player_up_idle/spr_player_up_idle.yy",},},

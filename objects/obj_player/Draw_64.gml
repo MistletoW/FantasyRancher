@@ -6,13 +6,35 @@
 
 // Update positioning based on current room dimensions
 
-var inventory = player_inventory;
-var slotsList = inventory[? "slots"];
+var slotsList = player_inventory[? "slots"];
 
+
+var inventoryOffsetY = -250; 
+var inventoryOffsetx = 250;
+var pos_x = startX;
+var pos_y = startY;
+
+
+if (room == SlimeWilds){
+	var scale_x = view_wport[0]/view_wview[0];
+	var scale_y = view_hport[0]/view_hview[0];   
+	//pos_x = view_wport[0];
+	//pos_x = pos_x * scale_x;
+    // pos_y = view_hport[0];
+	//pos_y = pos_y * scale_y;
+
+
+	pos_x = ((view_wport[0] - totalWidth) / 2) + inventoryOffsetx; // Centered horizontally within the viewport
+    pos_y = view_hport[0] - slotHeight - padding_bottom - inventoryOffsetY; // Positioned from the bottom of the viewport
+
+// Ensure startY is adjusted for the actual GUI drawing
+pos_y += view_yport[0]; // Adjust startY by the vertical position of the viewport if necessary
+
+}
 // Drawing the slots and buttons
 for (var i = 0; i < player_inventory_slots; i++) {
-    var drawx = startX + i * (slotWidth + gap);
-    var drawy = startY;
+    var drawx = pos_x + i * (slotWidth + gap);
+    var drawy = pos_y;
     var slot = ds_list_find_value(slotsList, i);
     var item = slot[? "item_id"];
     var quantity = slot[? "quantity"];
