@@ -30,10 +30,7 @@ totalWidth = player_inventory_slots * slotWidth + (player_inventory_slots - 1) *
 // Starting position to center slots
 startX = (room_width - totalWidth) / 2;
 startY = room_height - slotHeight - padding_bottom;
-
-srx = startX;
-sry = startY;
 // Configuration for the button
 buttonWidth = 24;
 buttonHeight = 24;
-buttonAlpha = 1; // Button transparency
+buttonAlpha = 0; // Button transparency
