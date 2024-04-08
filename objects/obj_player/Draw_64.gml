@@ -4,8 +4,8 @@
 
 
 
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
 // Update positioning based on current room dimensions
 
 var slotsList = global.player_inventory[? "slots"];

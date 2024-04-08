@@ -5,6 +5,7 @@ var keyRight = keyboard_check(vk_right);
 var keyUp = keyboard_check(vk_up); 
 var keyDown = keyboard_check(vk_down); 
 
+
 if(keyDown){
 	sprite_index = spr_player_down_walk; 
 	image_xscale = 1; 
@@ -15,7 +16,8 @@ if(keyDown){
 	image_xscale = 1; 
 	lastDir = 1; 
 	y -= spd; 
-}else if(keyLeft){
+}
+if(keyLeft){
 	sprite_index = spr_player_left_walk; 
 	image_xscale = 1; 
 	lastDir = 2; 
