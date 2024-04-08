@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-item_id = 3;
+global.item_information = 0;
 
-quantity = 1;
+drawx = 382;
+drawy = 110;
+
+price = 0;
 
 
 
-// price sell on market
-gold = 10;

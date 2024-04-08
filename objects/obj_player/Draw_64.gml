@@ -6,7 +6,7 @@
 
 // Update positioning based on current room dimensions
 
-var slotsList = player_inventory[? "slots"];
+var slotsList = global.player_inventory[? "slots"];
 
 
 var inventoryOffsetY = -250; 

@@ -8,7 +8,7 @@ lastDir = 0;
 
 // inventory that player carry on
 player_inventory_slots = 10;
-player_inventory = Inventory_init(player_inventory_slots);
+global.player_inventory = Inventory_init(player_inventory_slots);
 
 
 // marketing
@@ -16,7 +16,8 @@ global.playergold = 100;
 
 
 
-
+// testing
+Inventory_adding(global.player_inventory,3,3);
 
 
 //UI darawing variable

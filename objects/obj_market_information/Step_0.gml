@@ -1,11 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-item_id = 3;
-
-quantity = 1;
+price = 0;
 
 
 
-// price sell on market
-gold = 10;
+

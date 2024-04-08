@@ -82,7 +82,7 @@ pos_y += view_yport[0]; // Adjust startY by the vertical position of the viewpor
 
 
 
-show_debug_message(player_inventory);
+//show_debug_message(player_inventory);
 
 
 // Inventory drop
@@ -100,13 +100,12 @@ if (mouse_check_button_pressed(mb_left)) {
         // Determine if the mouse click is within the bounds of the button
         if (mouseX >= buttonX && mouseX <= buttonX + buttonWidth &&
             mouseY >= buttonY && mouseY <= buttonY + buttonHeight) {
-            var slot = ds_list_find_value(player_inventory[? "slots"], i);
+            var slot = ds_list_find_value(global.player_inventory[? "slots"], i);
             var itemid = slot[? "item_id"];
             if (itemid != noone) {
                 // Attempt to remove 1 quantity of the item from this slot
-				
 				// it must have a layer name instance!!
-                if (Inventory_removeitem(player_inventory, itemid, 1)) {
+                if (Inventory_removeitem(global.player_inventory, itemid, 1)) {
 					switch (itemid) {
 						case 1:
 							instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item_bone);
