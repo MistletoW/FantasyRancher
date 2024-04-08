@@ -2,7 +2,7 @@
 
 event_inherited();
 
-spd = 2;
+spd = 6;
 creatures_collected = 0; // number of creatures successfully caught
 plants_collected = 0;
 

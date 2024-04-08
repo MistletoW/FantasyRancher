@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Inv_add",
+  "name": "market_show_gold",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
