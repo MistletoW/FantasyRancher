@@ -1,9 +1,14 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_teleporter_breedingToPath","order":5,"path":"objects/obj_teleporter_breedingToPath/obj_teleporter_breedingToPath.yy",},
     {"name":"AnimalFarm1","order":1,"path":"rooms/AnimalFarm1/AnimalFarm1.yy",},
+    {"name":"spr_area","order":1,"path":"sprites/spr_area/spr_area.yy",},
     {"name":"obj_plant","order":1,"path":"objects/obj_plant/obj_plant.yy",},
     {"name":"obj_path_block","order":2,"path":"objects/obj_path_block/obj_path_block.yy",},
+    {"name":"obj_teleporter_pathToBreeding","order":6,"path":"objects/obj_teleporter_pathToBreeding/obj_teleporter_pathToBreeding.yy",},
+    {"name":"Sprite44","order":1,"path":"sprites/Sprite44/Sprite44.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_slime_breeding_area","order":4,"path":"objects/obj_slime_breeding_area/obj_slime_breeding_area.yy",},
   ],
 }

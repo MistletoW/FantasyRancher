@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(Path);
+target_room = House;
+
+target_x = 350; 
+target_y = 607;
 
 
