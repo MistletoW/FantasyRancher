@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_teleporter_breedingToPath",
-    "path": "objects/obj_teleporter_breedingToPath/obj_teleporter_breedingToPath.yy",
+    "name": "obj_teleporter",
+    "path": "objects/obj_teleporter/obj_teleporter.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

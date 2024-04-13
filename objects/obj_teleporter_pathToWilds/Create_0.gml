@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(other.target_room);
+target_room = SlimeWilds;
 
-x = other.target_x;
-y = other.target_y;
+target_x = 2408; 
+target_y = 827;
 
 
