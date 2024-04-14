@@ -6,4 +6,4 @@ draw_set_valign(fa_center);
 
 draw_set_color(c_black);
 
-draw_text(20, 20, obj_player_wilds.charge);
+draw_text(20, 20, obj_player.charge);

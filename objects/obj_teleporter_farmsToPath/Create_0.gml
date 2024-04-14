@@ -3,7 +3,12 @@
 
 target_room = Path;
 
-target_x = 1228; 
-target_y = 664; 
+if(room = Farm1){
+	target_x = 1237; 
+	target_y = 101;
+} else {
+	target_x = 1237; 
+	target_y = 640;
+}
 
 

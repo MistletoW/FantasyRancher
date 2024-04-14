@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"obj_teleporter_breedingToPath","order":5,"path":"objects/obj_teleporter_breedingToPath/obj_teleporter_breedingToPath.yy",},
     {"name":"AnimalFarm1","order":1,"path":"rooms/AnimalFarm1/AnimalFarm1.yy",},
     {"name":"spr_area","order":1,"path":"sprites/spr_area/spr_area.yy",},
     {"name":"obj_plant","order":1,"path":"objects/obj_plant/obj_plant.yy",},
