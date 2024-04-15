@@ -3,8 +3,4 @@
 
 NotWilds = true;
 
-target_room = AnimalFarm1;
-target_x = 673; 
-target_y = 46; 
-
 

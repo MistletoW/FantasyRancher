@@ -91,19 +91,6 @@ if (room == SlimeWilds) {
     }
 }
 
-// ur not allowed to go beyond boundaries
-if (x > 2500) {
-	x = 2499; // should put these as variables in a controller
-} else if (x < 30) {
-	x = 31;
-}
-
-if (y > 1475) {
-	y = 1474;
-} else if (y < 60) {
-	y = 61;
-}
-
 // LASSO STUFF
 
 // don't allow to go beyond max
