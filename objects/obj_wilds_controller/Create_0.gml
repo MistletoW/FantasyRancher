@@ -9,3 +9,10 @@ for (var i = 0; i < num_plants; i++) {
 	//instance_create(random_x, random_y, obj_orchid);
 	instance_create_layer(random_x, random_y, "Instances", obJ_orchid);
 }
+
+// hold the player for reference
+wilds_player = instance_find(obj_player_wilds, 0);
+
+// timer stuff
+timer = 2 * room_speed * 60;
+timer_string = "";

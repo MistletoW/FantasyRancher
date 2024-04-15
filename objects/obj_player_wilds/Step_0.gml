@@ -1,7 +1,13 @@
 /// @description movement
 
+curr_time = current_time;
+
 if (!shooting) {
 	event_inherited();
+}
+
+if (slimed) {
+	sprite_index = spr_slimed;
 }
 
 // ur not allowed to go beyond boundaries

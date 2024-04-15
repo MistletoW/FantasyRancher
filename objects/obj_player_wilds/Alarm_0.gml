@@ -1,9 +1,12 @@
 /// @description shoot lasso after animation, return to last sprite
 
+instance_destroy(aim_dot);
+aim_dot = noone;
+
 sprite_index = last_sprite;
 shooting = false;
 
-var target_area = charge + 10; // distance from the player that the lasso hits
+var target_area = charge + 80; // distance from the player that the lasso hits
 
 //var lasso_inst = noone;
 
