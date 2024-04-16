@@ -15,6 +15,9 @@ for (var i = 0; i < min(ds_list_size(sell_list), maxItemsVisible); i++) {
 		 case 3:
                 draw_sprite(spr_toadstool, 0, startX, itemY);
                 break;
+		 case 4:
+				draw_sprite(spr_orchid, 0, startX, itemY);
+				break;
 	}
 
     // Draw item ID and price

@@ -11,6 +11,11 @@ if (timer > 0) {
 } else {
 		
 	// communicate resources
+	// orchids
+	Inventory_adding(global.player_inventory, obJ_orchid.item_id, wilds_player.plants_collected);
+	
+	// slime product
+	Inventory_adding(global.player_inventory, obj_slime.item_id, wilds_player.creatures_collected);
 		
 	// put character back in house
 	room = House;
