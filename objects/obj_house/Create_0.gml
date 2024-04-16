@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+NotWilds = true;
+
 target_room = House;
 
 target_x = 350; 
