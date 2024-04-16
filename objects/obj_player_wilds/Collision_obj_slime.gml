@@ -1,6 +1,6 @@
 /// @description lose a life
 
-if (current_time - (20 * room_speed) > last_collision) {
+if (current_time - (20 * room_speed) > last_collision && other.sprite_index != spr_slime_caught) {
 	wilds_lives--;
 	last_collision = current_time;
 	
