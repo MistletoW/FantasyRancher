@@ -15,7 +15,7 @@ if (place_meeting(x, y, obj_untilled_dirt) && room == Farm1) {
 	    }
 	    // Harvesting
 	    else if (tilledDirt.plant && tilledDirt.plant.isGrown) {
-			//HERE MAKE SURE THE INVENTORY ADDS ORCHID
+			//HERE MAKE SURE THE INVENTORY ADDS 2-4 ORCHIDs
 	        with (tilledDirt.plant) {
 	            instance_destroy();
 	        }
