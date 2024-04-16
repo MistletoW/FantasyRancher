@@ -12,7 +12,7 @@ if (timer > 0) {
 		
 	// communicate resources
 	// orchids
-	Inventory_adding(global.player_inventory, obJ_orchid.item_id, wilds_player.plants_collected);
+	Inventory_adding(global.player_inventory, obj_orchid.item_id, wilds_player.plants_collected);
 	
 	// slime product
 	Inventory_adding(global.player_inventory, obj_slime.item_id, wilds_player.creatures_collected);
