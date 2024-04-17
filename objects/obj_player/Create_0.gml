@@ -35,6 +35,7 @@ global.playergold = 100;
 
 // testing
 Inventory_adding(global.player_inventory,3,3);
+Inventory_adding(global.player_inventory,4,3);
 	
 
 //UI darawing variable

@@ -12,6 +12,14 @@ switch (global.item_information){
       draw_sprite(spr_toadstool, 0, drawx, drawy);
 	  price = 10;
       break;
+	  case 4:
+      draw_sprite(spr_orchid, 0, drawx, drawy);
+	  price = 10;
+      break;
+	  case 5:
+      draw_sprite(spr_slime_caught, 0, drawx, drawy);
+	   price = 40;
+      break;	  
 }
 
  draw_text(drawx + 15, drawy + 100, string(price));

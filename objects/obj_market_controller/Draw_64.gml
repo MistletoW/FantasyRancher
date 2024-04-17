@@ -34,6 +34,12 @@ for (var i = 0; i < player_inventory_slots; i++) {
             case 3:
                 draw_sprite(spr_toadstool, 0, drawx, drawy);
                 break;
+			case 4:
+                draw_sprite(spr_orchid, 0, drawx, drawy);
+                break;
+			case 5:
+                draw_sprite(spr_slime_caught, 0, drawx, drawy);
+                break;
         }
 
         // Draw the item quantity
