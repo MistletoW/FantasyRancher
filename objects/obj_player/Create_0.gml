@@ -54,3 +54,8 @@ startY = room_height - slotHeight - padding_bottom;
 buttonWidth = 24;
 buttonHeight = 24;
 buttonAlpha = 0; // Button transparency
+
+startMenu = true; 
+if(room != Path){
+	startMenu = false; 
+}

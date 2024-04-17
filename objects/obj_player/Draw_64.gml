@@ -74,6 +74,23 @@ for (var i = 0; i < player_inventory_slots; i++) {
 }
 
 
+// Draw tutorial menu on start 
+if(startMenu){
+	draw_set_alpha(1); 
+	draw_set_color($001830);
+	draw_rectangle(100, 100, view_wport[0] - 100, view_hport[0] - 100, false); 
+	draw_set_color($70a0b0);
+	draw_rectangle(105, 105, view_wport[0] - 105, view_hport[0] - 105, false);
+	
+	draw_set_color(c_black); 
+	draw_set_font(Font1); 
+	draw_set_halign(fa_center); 
+	draw_set_valign(fa_middle); 
+	
+	draw_text(view_wport[0]/2, view_hport[0]/2, "Welcome to Fantasy Rancher! \n Use arrow keys to move around \n In the wilds, press space to throw your lasso \n(hold to throw further) \n Hold enter to gather a plant \n Press E to till a field \n Press F to plant in the field or \nharvest plants from your field \n Press H to bring this back at any time \n Press escape to close this menu"); 
+	
+}
+
 /*
 >>>>>>> 91630449a6c85779dddc682f541003455e30f579
 //draw

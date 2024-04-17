@@ -114,8 +114,13 @@ if (charging == true && !keyboard_check(vk_space)) {
 // Set invisible and fixed position if in market 
 if(room == market){
 	visible = false; 
-	x = room_width/2; 
-	y = room_height/2; 
+	x = view_wport[0]/2; 
+	y = view_hport[0]/2; 
 }else{
 	visible = true; 
+}
+
+// Remove tutorial menu 
+if(keyboard_check(vk_escape)){
+	startMenu = false; 
 }
