@@ -65,7 +65,6 @@
     {"name":"Inv_remove","order":4,"path":"scripts/Inv_remove/Inv_remove.yy",},
     {"name":"obj_fence","order":5,"path":"objects/obj_fence/obj_fence.yy",},
     {"name":"spr_market_sell_list","order":44,"path":"sprites/spr_market_sell_list/spr_market_sell_list.yy",},
-    {"name":"obj_maket_sell","order":26,"path":"objects/obj_maket_sell/obj_maket_sell.yy",},
     {"name":"obj_tree_wilds","order":4,"path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},
     {"name":"spr_tree","order":1,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_inventory_ui","order":42,"path":"sprites/spr_inventory_ui/spr_inventory_ui.yy",},

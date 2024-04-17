@@ -83,6 +83,7 @@ if (room == SlimeWilds) {
                 var slot = ds_list_find_value(global.player_inventory[? "slots"], i);
                 var itemid = slot[? "item_id"];
                 if (itemid != noone && Inventory_removeitem(global.player_inventory, itemid, 1)) {
+					
                     instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item_corresponding_to_itemid[itemid]);
                     break; // Prevent multiple interactions from one click
                 }

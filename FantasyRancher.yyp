@@ -108,7 +108,6 @@
     {"id":{"name":"Inv_remove","path":"scripts/Inv_remove/Inv_remove.yy",},},
     {"id":{"name":"obj_fence","path":"objects/obj_fence/obj_fence.yy",},},
     {"id":{"name":"spr_market_sell_list","path":"sprites/spr_market_sell_list/spr_market_sell_list.yy",},},
-    {"id":{"name":"obj_maket_sell","path":"objects/obj_maket_sell/obj_maket_sell.yy",},},
     {"id":{"name":"obj_tree_wilds","path":"objects/obj_tree_wilds/obj_tree_wilds.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
     {"id":{"name":"spr_inventory_ui","path":"sprites/spr_inventory_ui/spr_inventory_ui.yy",},},
