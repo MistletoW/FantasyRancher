@@ -111,3 +111,17 @@ if (charging == true && !keyboard_check(vk_space)) {
 	alarm[0] = room_speed; // animation will finish after 1 second/play
 	
 }
+
+// Set invisible and fixed position if in market 
+if(room == market){
+	visible = false; 
+	x = view_wport[0]/2; 
+	y = view_hport[0]/2; 
+}else{
+	visible = true; 
+}
+
+// Remove tutorial menu 
+if(keyboard_check(vk_escape)){
+	startMenu = false; 
+}
