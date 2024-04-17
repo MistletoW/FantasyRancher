@@ -137,6 +137,7 @@
     {"id":{"name":"obj_rope_segment_hor","path":"objects/obj_rope_segment_hor/obj_rope_segment_hor.yy",},},
     {"id":{"name":"obj_market_controller","path":"objects/obj_market_controller/obj_market_controller.yy",},},
     {"id":{"name":"spr_fence","path":"sprites/spr_fence/spr_fence.yy",},},
+    {"id":{"name":"get_sprite","path":"scripts/get_sprite/get_sprite.yy",},},
     {"id":{"name":"Sell_sound","path":"sounds/Sell_sound/Sell_sound.yy",},},
     {"id":{"name":"obj_toadstool","path":"objects/obj_toadstool/obj_toadstool.yy",},},
     {"id":{"name":"market_ui","path":"tilesets/market_ui/market_ui.yy",},},

@@ -93,6 +93,7 @@
     {"name":"obj_rope_segment_hor","order":14,"path":"objects/obj_rope_segment_hor/obj_rope_segment_hor.yy",},
     {"name":"obj_market_controller","order":25,"path":"objects/obj_market_controller/obj_market_controller.yy",},
     {"name":"spr_fence","order":11,"path":"sprites/spr_fence/spr_fence.yy",},
+    {"name":"get_sprite","order":7,"path":"scripts/get_sprite/get_sprite.yy",},
     {"name":"Sell_sound","order":1,"path":"sounds/Sell_sound/Sell_sound.yy",},
     {"name":"obj_toadstool","order":14,"path":"objects/obj_toadstool/obj_toadstool.yy",},
     {"name":"market_ui","order":2,"path":"tilesets/market_ui/market_ui.yy",},

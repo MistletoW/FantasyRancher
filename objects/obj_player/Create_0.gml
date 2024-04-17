@@ -41,15 +41,15 @@ Inventory_adding(global.player_inventory,3,3);
 // Configuration for drawing
 slotWidth = 32;
 slotHeight = 32;
-gap = 2; 
+gap = 3; 
 padding_bottom = 10; 
 
 // Calculate total width of all slots plus gaps
 totalWidth = player_inventory_slots * slotWidth + (player_inventory_slots - 1) * gap;
 
 // Starting position to center slots
-startX = (room_width - totalWidth) / 2;
-startY = room_height - slotHeight - padding_bottom;
+startX = (view_wport[0] - totalWidth) / 2;
+startY = view_hport[0] - slotHeight - padding_bottom;
 // Configuration for the button
 buttonWidth = 24;
 buttonHeight = 24;

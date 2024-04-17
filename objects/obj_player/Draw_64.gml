@@ -11,28 +11,21 @@
 var slotsList = global.player_inventory[? "slots"];
 
 
-var inventoryOffsetY = -250; 
+var inventoryOffsetY = -50; 
 var inventoryOffsetx = 250;
 var pos_x = startX;
 var pos_y = startY;
+var scale_x = view_wport[0];
+var scale_y = view_hport[0];
 
 
-if (room == SlimeWilds){
-	var scale_x = view_wport[0]/view_wview[0];
-	var scale_y = view_hport[0]/view_hview[0];   
-	//pos_x = view_wport[0];
-	//pos_x = pos_x * scale_x;
-    // pos_y = view_hport[0];
-	//pos_y = pos_y * scale_y;
-
-
-	pos_x = ((view_wport[0] - totalWidth) / 2) + inventoryOffsetx; // Centered horizontally within the viewport
-    pos_y = view_hport[0] - slotHeight - padding_bottom - inventoryOffsetY; // Positioned from the bottom of the viewport
+	pos_x = ((view_wport[0] - 768) / 2) + inventoryOffsetx; // Centered horizontally within the viewport
+    pos_y = view_hport[0] - slotHeight - padding_bottom; // Positioned from the bottom of the viewport
 
 // Ensure startY is adjusted for the actual GUI drawing
 pos_y += view_yport[0]; // Adjust startY by the vertical position of the viewport if necessary
 
-}
+
 // Drawing the slots and buttons
 for (var i = 0; i < player_inventory_slots; i++) {
     var drawx = pos_x + i * (slotWidth + gap);
@@ -42,6 +35,7 @@ for (var i = 0; i < player_inventory_slots; i++) {
     var quantity = slot[? "quantity"];
 
     // Draw the slot background sprite
+	draw_set_alpha(1); 
     draw_sprite(spr_inventory_slot, 0, drawx, drawy);
     
     if (item != noone) {
