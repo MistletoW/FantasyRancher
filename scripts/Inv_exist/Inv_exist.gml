@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Inv_exist(objiventory, itemid){
-    var inventory = inv; // Direct use of function argument
+    var inventory = objiventory; // Direct use of function argument
     var item = itemid; // Direct use of function argument
     var quantity = (_quantity != undefined) ? _quantity : 1; // Handling the optional quantity argument
     var slots = inventory[? "slots"];

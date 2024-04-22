@@ -6,6 +6,7 @@
     {"name":"spr_carpet","order":17,"path":"sprites/spr_carpet/spr_carpet.yy",},
     {"name":"spr_tilled_dirt","order":10,"path":"sprites/spr_tilled_dirt/spr_tilled_dirt.yy",},
     {"name":"House","order":3,"path":"rooms/House/House.yy",},
+    {"name":"Get_object","order":8,"path":"scripts/Get_object/Get_object.yy",},
     {"name":"spr_player_left_idle","order":7,"path":"sprites/spr_player_left_idle/spr_player_left_idle.yy",},
     {"name":"spr_rope_throw","order":27,"path":"sprites/spr_rope_throw/spr_rope_throw.yy",},
     {"name":"spr_house","order":25,"path":"sprites/spr_house/spr_house.yy",},

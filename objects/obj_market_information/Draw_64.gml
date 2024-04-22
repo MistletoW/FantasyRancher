@@ -22,6 +22,7 @@ switch (global.item_information){
       break;	  
 }
 
+ draw_text(drawx + 15, drawy + 80, string("Market price:"));
  draw_text(drawx + 15, drawy + 100, string(price));
 
 

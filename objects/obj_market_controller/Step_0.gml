@@ -45,19 +45,26 @@ for (var i = 0; i < array_length_1d(popUpOptions); i++) {
         popUpOptionSelected = i;
         switch (popUpOptionSelected) {
             case 0: // sell
-                Inventory_removeitem(global.player_inventory, selectId, 1);
-				global.playergold += selectGold;
+				SellNum = get_integer("Number want to sell", 0);
+				var numslot = ds_list_find_value(global.player_inventory[? "slots"], i);
+				existSellNum =  numslot[? "quantity"];
+				if (SellNum <= existSellNum  ){
+			    Inventory_removeitem(global.player_inventory, selectId, SellNum);
+				global.playergold += (selectGold * SellNum);
 				show_debug_message("sell");
 				audio_play_sound(Sell_sound, 10, false);
 				show_debug_message(global.playergold);
+					
+				}
+
                 break;
             case 1: // bargain
-              
+				global.getbargain = true;  
                show_debug_message("bargain popup");
                 break;
             case 2: 
                 popUpVisible = false;
-                show_debug_message("Closing popup");
+                //show_debug_message("Closing popup");
                 break;
         }
         popUpVisible = false;

@@ -6,6 +6,9 @@
 // Draw GUI Event for obj_market_sell_list
 
 // Starting position for the sell list
+
+
+/*
 for (var i = 0; i < min(ds_list_size(sell_list), maxItemsVisible); i++) {
     var item = ds_list_find_value(sell_list, i);
     var item_id = item[? "item_id"];
@@ -42,7 +45,7 @@ if (popUpVisible) {
 		draw_text(popUpX + 10, popUpY + 10 + i * 30, popUpOptions[i]);
     }
 }
-
+*/
 
 
 

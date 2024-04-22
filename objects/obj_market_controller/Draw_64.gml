@@ -22,25 +22,12 @@ for (var i = 0; i < player_inventory_slots; i++) {
     draw_sprite(spr_inventory_slot, 0, drawx, drawy);
 
     if (item != noone) {
-		
-        // Drawing items based on item_id
-        switch (item) {
-            case 1:
-                draw_sprite(spr_bone, 0, drawx, drawy);
-                break;
-            case 2:
-                draw_sprite(spr_slimejelly, 0, drawx, drawy);
-                break;
-            case 3:
-                draw_sprite(spr_toadstool, 0, drawx, drawy);
-                break;
-			case 4:
-                draw_sprite(spr_orchid, 0, drawx, drawy);
-                break;
-			case 5:
-                draw_sprite(spr_slime_caught, 0, drawx, drawy);
-                break;
-        }
+		var original_width = sprite_get_width(get_sprite(item));
+		var original_height = sprite_get_height(get_sprite(item));
+		var scale_width = 32 / original_width;
+		var scale_height = 32 / original_height;
+		//draw_sprite(get_sprite(item), 0, drawx, drawy);
+        draw_sprite_ext(get_sprite(item), 0, drawx, drawy, scale_width, scale_height, 0, c_white, 1);
 
         // Draw the item quantity
         draw_set_color(c_white);
@@ -59,9 +46,9 @@ for (var i = 0; i < player_inventory_slots; i++) {
 // Part of the Draw GUI Event of obj_market_controller
 if (popUpVisible) {
     // Fixed position for the pop-up window
-    popUpX = 30;
+    popUpX = 10;
     popUpY = 543;
-    popUpWidth = 120; // Adjust width as needed
+    popUpWidth = 100; // Adjust width as needed
     popUpHeight = array_length_1d(popUpOptions) * 30 + 20; // Adjust height based on number of options
 
     // Set background color to black for the pop-up window
@@ -72,8 +59,8 @@ if (popUpVisible) {
     draw_set_color(c_white);
     for (var i = 0; i < array_length_1d(popUpOptions); i++) {
         var optionText = popUpOptions[i];
-        var textY = popUpY + 10 + i * 30; // Calculate Y position for each option within the pop-up
-        draw_text(popUpX + 10, textY, optionText); // Draw each option
+        var textY = popUpY + 20 + i * 30; // Calculate Y position for each option within the pop-up
+        draw_text(popUpX + 50, textY, optionText); // Draw each option
     }
 
     // Optionally, reset drawing color to default after drawing the pop-up

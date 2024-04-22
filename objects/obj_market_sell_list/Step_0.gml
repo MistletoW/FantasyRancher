@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Step Event or Mouse Click Event
-
+/*
 if (mouse_check_button_pressed(mb_left)) {
     var mouseX = mouse_x;
     var mouseY = mouse_y;
@@ -21,8 +21,15 @@ if (mouse_check_button_pressed(mb_left)) {
         }
     }
 }
+*/
+/*
+if (keyboard_check_pressed(vk_space)) {  // Triggering on spacebar press
+    var dialog_id = get_string_async("Please enter your number:", "");
+    // Store the dialog_id to check against in the Asynchronous Dialog event
+    my_dialog_id = dialog_id;
+}
 
-
+*/
 
 
 

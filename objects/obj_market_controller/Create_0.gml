@@ -21,7 +21,7 @@ sry = startY;
 buttonWidth = 24;
 buttonHeight = 24;
 buttonAlpha = 0; // Button transparency
-pos_x = 50;
+pos_x = 25;
 pos_y = 50;
 
 
@@ -33,8 +33,9 @@ activeSlot = -1; // -1 indicates no slot is active
  buttonHeight = 24;
  
  
- 
- 
+//sell number store
+existSellNum = 0;
+SellNum = 0;
  //pop up
  // Add to the Create Event of obj_market_controller
 popUpVisible = false;
@@ -51,3 +52,4 @@ popUpHeight = array_length_1d(popUpOptions) * 30 + 20; // Adjust height based on
 //
 selectId = 0;
 selectGold =10;
+

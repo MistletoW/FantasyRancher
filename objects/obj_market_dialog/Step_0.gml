@@ -1,12 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.item_information = 0;
 
-drawx = 198;
-drawy = 137;
 
-price = 0;
 
 
 

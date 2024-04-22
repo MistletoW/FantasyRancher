@@ -1,15 +1,16 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function get_sprite(itemid){
-        switch (itemid) {
+function Get_object(itemid){
+	        switch (itemid) {
             case 3:
-                return(spr_toadstool);
+				return(obj_toadstool);
                 break;
 			case 4:
-                return(spr_orchid);
-                break;
+                return(obj_orchid);
+				break;
 			case 5:
-                return(spr_slime_caught);
+				return(obj_slime);
                 break;
         }
+
 }

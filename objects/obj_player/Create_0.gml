@@ -34,7 +34,7 @@ global.playergold = 100;
 
 
 // testing
-Inventory_adding(global.player_inventory,3,3);
+//Inventory_adding(global.player_inventory,3,3);
 Inventory_adding(global.player_inventory,4,3);
 	
 
@@ -55,6 +55,13 @@ startY = view_hport[0] - slotHeight - padding_bottom;
 buttonWidth = 24;
 buttonHeight = 24;
 buttonAlpha = 0; // Button transparency
+//tracking the button we draw
+button_list = ds_list_create();
+
+// store the number of user input
+quantitydrop = 0;
+
+
 
 startMenu = true; 
 if(room != Path){

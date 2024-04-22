@@ -23,9 +23,13 @@ var scale_y = view_hport[0];
     pos_y = view_hport[0] - slotHeight - padding_bottom; // Positioned from the bottom of the viewport
 
 // Ensure startY is adjusted for the actual GUI drawing
-pos_y += view_yport[0]; // Adjust startY by the vertical position of the viewport if necessary
-
-
+pos_y += view_yport[0]; 
+	/*
+	show_debug_message("draw:");
+		show_debug_message(pos_y);
+			show_debug_message(pos_x);
+	*/		
+			
 // Drawing the slots and buttons
 for (var i = 0; i < player_inventory_slots; i++) {
     var drawx = pos_x + i * (slotWidth + gap);
@@ -40,23 +44,12 @@ for (var i = 0; i < player_inventory_slots; i++) {
     
     if (item != noone) {
         // Example of drawing items based on item_id
-        switch (item) {
-            case 1:
-                draw_sprite(spr_bone, 0, drawx, drawy);
-                break;
-            case 2:
-                draw_sprite(spr_slimejelly, 0, drawx, drawy);
-                break;
-            case 3:
-                draw_sprite(spr_toadstool, 0, drawx, drawy);
-                break;
-			case 4:
-                draw_sprite(spr_orchid, 0, drawx, drawy);
-                break;
-			case 5:
-                draw_sprite(spr_slime_caught, 0, drawx, drawy);
-                break;
-        }
+		var original_width = sprite_get_width(get_sprite(item));
+		var original_height = sprite_get_height(get_sprite(item));
+		var scale_width = 32 / original_width;
+		var scale_height = 32 / original_height;
+		//draw_sprite(get_sprite(item), 0, drawx, drawy);
+        draw_sprite_ext(get_sprite(item), 0, drawx, drawy, scale_width, scale_height, 0, c_white, 1);
 
         // Draw the item quantity
         draw_set_color(c_white);
@@ -71,6 +64,8 @@ for (var i = 0; i < player_inventory_slots; i++) {
     draw_rectangle(buttonX, buttonY, buttonX + buttonWidth, buttonY + buttonHeight, false);
     draw_set_alpha(1); // Reset the alpha
     draw_set_color(c_black); // Reset the color
+	var button_tracker = [buttonX, buttonY, buttonX + buttonWidth, buttonY + buttonHeight];
+    ds_list_add(button_list, button_tracker);
 }
 
 

@@ -59,39 +59,6 @@ if (moveX == 0 && moveY == 0) {
         case 3: sprite_index = spr_player_left_idle; image_xscale = -1; break;
     }
 }
-
-// Inventory and GUI handling (assuming specific room conditions)
-if (room == SlimeWilds) {
-    var inventoryOffsetX = 250;
-    var inventoryOffsetY = -250;
-    var pos_x = ((view_wport[0] - totalWidth) / 2) + inventoryOffsetX;
-    var pos_y = view_hport[0] - slotHeight - padding_bottom - inventoryOffsetY;
-    pos_y += view_yport[0]; // Adjust for the vertical position of the viewport
-
-    // Inventory interaction
-    if (mouse_check_button_pressed(mb_left)) {
-        var mouseX = mouse_x;
-        var mouseY = mouse_y;
-        for (var i = 0; i < player_inventory_slots; i++) {
-            var drawx = pos_x + i * (slotWidth + gap);
-            var drawy = pos_y;
-            var buttonX = drawx + slotWidth - buttonWidth - gap;
-            var buttonY = drawy + slotHeight - buttonHeight - gap;
-
-            if (mouseX >= buttonX && mouseX <= buttonX + buttonWidth &&
-                mouseY >= buttonY && mouseY <= buttonY + buttonHeight) {
-                var slot = ds_list_find_value(global.player_inventory[? "slots"], i);
-                var itemid = slot[? "item_id"];
-                if (itemid != noone && Inventory_removeitem(global.player_inventory, itemid, 1)) {
-					
-                    instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item_corresponding_to_itemid[itemid]);
-                    break; // Prevent multiple interactions from one click
-                }
-            }
-        }
-    }
-}
-
 // LASSO STUFF
 
 // don't allow to go beyond max
