@@ -92,3 +92,19 @@ if(room == market){
 if(keyboard_check(vk_escape)){
 	startMenu = false; 
 }
+
+// Keep from going out of bounds in house 
+if(room == House){
+	if(x < sprite_width/2){
+		x = sprite_width/2;
+	}else if(x > view_wport[0] - sprite_width/2){
+		x = view_wport[0] - sprite_width/2 - 1; 
+	}
+	
+	if(y < sprite_height/2){
+		y = sprite_height/2; 
+	}else if(y > view_hport[0] - sprite_height/2){
+		y = view_hport[0] - sprite_height/2 - 1; 
+	}
+	
+}
