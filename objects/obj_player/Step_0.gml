@@ -1,8 +1,8 @@
-// Movement Input
-var keyLeft = keyboard_check(vk_left); 
-var keyRight = keyboard_check(vk_right); 
-var keyUp = keyboard_check(vk_up); 
-var keyDown = keyboard_check(vk_down);
+// Movement Input for both WASD and arrow keys
+var keyLeft = keyboard_check(65) || keyboard_check(vk_left); 
+var keyRight = keyboard_check(68) || keyboard_check(vk_right); 
+var keyUp = keyboard_check(87) || keyboard_check(vk_up); 
+var keyDown = keyboard_check(83) || keyboard_check(vk_down);
 
 // Calculate movement vectors
 var moveX = spd * (keyRight - keyLeft);
