@@ -33,7 +33,7 @@ pos_y += view_yport[0];
 // Drawing the slots and buttons
 for (var i = 0; i < player_inventory_slots; i++) {
     var drawx = pos_x + i * (slotWidth + gap);
-    var drawy = pos_y;
+    var drawy = pos_y ;
     var slot = ds_list_find_value(slotsList, i);
     var item = slot[? "item_id"];
     var quantity = slot[? "quantity"];
@@ -49,7 +49,7 @@ for (var i = 0; i < player_inventory_slots; i++) {
 		var scale_width = 32 / original_width;
 		var scale_height = 32 / original_height;
 		//draw_sprite(get_sprite(item), 0, drawx, drawy);
-        draw_sprite_ext(get_sprite(item), 0, drawx, drawy, scale_width, scale_height, 0, c_white, 1);
+        draw_sprite_ext(get_sprite(item), 0, drawx +10, drawy + 15, scale_width, scale_height, 0, c_white, 1);
 
         // Draw the item quantity
         draw_set_color(c_white);

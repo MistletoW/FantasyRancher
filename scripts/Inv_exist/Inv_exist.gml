@@ -3,7 +3,7 @@
 function Inv_exist(objiventory, itemid){
     var inventory = objiventory; // Direct use of function argument
     var item = itemid; // Direct use of function argument
-    var quantity = (_quantity != undefined) ? _quantity : 1; // Handling the optional quantity argument
+    //var quantity = (_quantity != undefined) ? _quantity : 1; // Handling the optional quantity argument
     var slots = inventory[? "slots"];
     var totalQuantity = 0;
 
