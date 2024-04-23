@@ -98,7 +98,6 @@
     {"id":{"name":"SlimeWilds","path":"rooms/SlimeWilds/SlimeWilds.yy",},},
     {"id":{"name":"spr_telephone","path":"sprites/spr_telephone/spr_telephone.yy",},},
     {"id":{"name":"obj_create_inventory","path":"objects/obj_create_inventory/obj_create_inventory.yy",},},
-    {"id":{"name":"obj_player_wilds","path":"objects/obj_player_wilds/obj_player_wilds.yy",},},
     {"id":{"name":"spr_dialog_white","path":"sprites/spr_dialog_white/spr_dialog_white.yy",},},
     {"id":{"name":"Path","path":"rooms/Path/Path.yy",},},
     {"id":{"name":"obj_wilds_controller","path":"objects/obj_wilds_controller/obj_wilds_controller.yy",},},

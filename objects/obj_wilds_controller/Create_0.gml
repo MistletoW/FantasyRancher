@@ -11,7 +11,7 @@ for (var i = 0; i < num_plants; i++) {
 }
 
 // hold the player for reference
-wilds_player = instance_find(obj_player_wilds, 0);
+wilds_player = instance_find(obj_player, 0);
 
 // timer stuff
 timer = 1 * room_speed * 60;
