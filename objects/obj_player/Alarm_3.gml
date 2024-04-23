@@ -1,11 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-NotWilds = true;
-
-target_room = SlimeWilds;
-
-target_x = 2395; 
-target_y = 823;
+room = House;
 
 

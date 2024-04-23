@@ -5,7 +5,7 @@ NotWilds = true;
 
 target_room = Path;
 
-target_x = 40; 
+target_x = 90; 
 target_y = 446;
 
 

@@ -55,7 +55,6 @@
     {"name":"SlimeWilds","order":1,"path":"rooms/SlimeWilds/SlimeWilds.yy",},
     {"name":"spr_telephone","order":20,"path":"sprites/spr_telephone/spr_telephone.yy",},
     {"name":"obj_create_inventory","order":12,"path":"objects/obj_create_inventory/obj_create_inventory.yy",},
-    {"name":"obj_player_wilds","order":2,"path":"objects/obj_player_wilds/obj_player_wilds.yy",},
     {"name":"spr_dialog_white","order":43,"path":"sprites/spr_dialog_white/spr_dialog_white.yy",},
     {"name":"Path","order":4,"path":"rooms/Path/Path.yy",},
     {"name":"obj_wilds_controller","order":3,"path":"objects/obj_wilds_controller/obj_wilds_controller.yy",},
