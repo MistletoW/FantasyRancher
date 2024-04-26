@@ -6,12 +6,14 @@ if (room == AnimalFarm1) {
 
     if (slime != noone) {
 		//ADD SLIME TO INVENTORY
+		Inventory_adding(global.player_inventory, 5, 1);
         instance_destroy(slime);
     } else {
 		
-		if(true){//CHECK IF SLIME IN INVENTORY
+		if(Inv_exist(global.player_inventory,5)){//CHECK IF SLIME IN INVENTORY
 			var slime = instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_slime);
 			//REMOVE SLIME FROM INVENTORY
+			Inventory_removeitem(global.player_inventory, 5, 1);
 		}
     }
 }

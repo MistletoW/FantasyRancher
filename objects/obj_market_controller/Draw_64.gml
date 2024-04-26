@@ -27,7 +27,7 @@ for (var i = 0; i < player_inventory_slots; i++) {
 		var scale_width = 32 / original_width;
 		var scale_height = 32 / original_height;
 		//draw_sprite(get_sprite(item), 0, drawx, drawy);
-        draw_sprite_ext(get_sprite(item), 0, drawx, drawy, scale_width, scale_height, 0, c_white, 1);
+        draw_sprite_ext(get_sprite(item), 0, drawx+15, drawy+10, scale_width, scale_height, 0, c_white, 1);
 
         // Draw the item quantity
         draw_set_color(c_white);
@@ -48,22 +48,22 @@ if (popUpVisible) {
     // Fixed position for the pop-up window
     popUpX = 10;
     popUpY = 543;
-    popUpWidth = 100; // Adjust width as needed
-    popUpHeight = array_length_1d(popUpOptions) * 30 + 20; // Adjust height based on number of options
+    popUpWidth = 100; 
+    popUpHeight = array_length_1d(popUpOptions) * 30 + 20;
 
     // Set background color to black for the pop-up window
     draw_set_color(c_black);
-    draw_rectangle(popUpX, popUpY, popUpX + popUpWidth, popUpY + popUpHeight, true); // Draw filled rectangle for the background
+    draw_rectangle(popUpX, popUpY, popUpX + popUpWidth, popUpY + popUpHeight, true); 
 
     // Set text color to white for the options
     draw_set_color(c_white);
     for (var i = 0; i < array_length_1d(popUpOptions); i++) {
         var optionText = popUpOptions[i];
-        var textY = popUpY + 20 + i * 30; // Calculate Y position for each option within the pop-up
-        draw_text(popUpX + 50, textY, optionText); // Draw each option
+        var textY = popUpY + 20 + i * 30; 
+        draw_text(popUpX + 50, textY, optionText); 
     }
 
-    // Optionally, reset drawing color to default after drawing the pop-up
+   
     draw_set_color(c_white);
 }
 

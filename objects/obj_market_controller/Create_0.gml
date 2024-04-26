@@ -39,17 +39,19 @@ SellNum = 0;
  //pop up
  // Add to the Create Event of obj_market_controller
 popUpVisible = false;
-activeSlot = -1; // Index of the slot whose button was clicked
+activeSlot = -1; 
 popUpOptions = ["sell", "bargain", "Cancel"];
-popUpOptionSelected = -1; // Index of the selected option, -1 means none
-
- 
+popUpOptionSelected = -1; 
 popUpX = 30;
 popUpY = 543;
-popUpWidth = 120; // Adjust width as needed
-popUpHeight = array_length_1d(popUpOptions) * 30 + 20; // Adjust height based on number of options
+popUpWidth = 120;
+popUpHeight = array_length_1d(popUpOptions) * 30 + 20; 
+item = 0;
+global.getbargain = false;  
 
 //
 selectId = 0;
-global.selectGold =10;
+global.selectGold =0;
+
+global.selectItemID = 0;
 
