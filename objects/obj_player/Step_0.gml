@@ -123,14 +123,14 @@ if (charge > max_charge) {
 }
 
 // shoot upon release
-if (charging == true && !keyboard_check(vk_space)) {
-	charging = false;
-	shooting = true;
+//if (charging == true && !keyboard_check(vk_space)) {
+	//charging = false;
+	//shooting = true;
 	
 	// play the shooting animation before putting out the rope
-	last_sprite = sprite_index; // we need to return to this after
+	//last_sprite = sprite_index; // we need to return to this after
 	
-	sprite_index = spr_rope_throw;
-	alarm[0] = room_speed; // animation will finish after 1 second/play
+	//sprite_index = spr_rope_throw;
+	//alarm[0] = room_speed; // animation will finish after 1 second/play
 	
-}
+//}

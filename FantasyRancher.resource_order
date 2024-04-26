@@ -39,6 +39,7 @@
     {"name":"spr_brickx64","order":14,"path":"sprites/spr_brickx64/spr_brickx64.yy",},
     {"name":"obj_market","order":13,"path":"objects/obj_market/obj_market.yy",},
     {"name":"market_show_gold","order":6,"path":"scripts/market_show_gold/market_show_gold.yy",},
+    {"name":"obj_global_controller","order":30,"path":"objects/obj_global_controller/obj_global_controller.yy",},
     {"name":"spr_wood_floor","order":16,"path":"sprites/spr_wood_floor/spr_wood_floor.yy",},
     {"name":"spr_lasso_side","order":26,"path":"sprites/spr_lasso_side/spr_lasso_side.yy",},
     {"name":"spr_market_ui","order":37,"path":"sprites/spr_market_ui/spr_market_ui.yy",},

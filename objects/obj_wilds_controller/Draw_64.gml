@@ -21,6 +21,6 @@ if (room == SlimeWilds) {
 	draw_sprite(spr_slime, 0, 680, 35);
 	draw_text(720, 35, "X" + string(wilds_player.creatures_collected));
 	
-	draw_sprite(spr_orchid, 0, 650, 65);
+	draw_sprite(spr_orchid, 0, 690, 85);
 	draw_text(720, 95, "X" + string(wilds_player.plants_collected));
 }
