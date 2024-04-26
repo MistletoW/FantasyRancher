@@ -51,5 +51,5 @@ popUpHeight = array_length_1d(popUpOptions) * 30 + 20; // Adjust height based on
 
 //
 selectId = 0;
-selectGold =10;
+global.selectGold =10;
 

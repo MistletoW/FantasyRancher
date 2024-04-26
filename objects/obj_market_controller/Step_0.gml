@@ -48,9 +48,11 @@ for (var i = 0; i < array_length_1d(popUpOptions); i++) {
 				SellNum = get_integer("Number want to sell", 0);
 				var numslot = ds_list_find_value(global.player_inventory[? "slots"], i);
 				existSellNum =  numslot[? "quantity"];
+				var item = slot[? "item_id"];
 				if (SellNum <= existSellNum  ){
 			    Inventory_removeitem(global.player_inventory, selectId, SellNum);
-				global.playergold += (selectGold * SellNum);
+				global.selectGold = Get_gold(item);
+				global.playergold += (global.selectGold * SellNum);
 				show_debug_message("sell");
 				audio_play_sound(Sell_sound, 10, false);
 				show_debug_message(global.playergold);
@@ -59,6 +61,7 @@ for (var i = 0; i < array_length_1d(popUpOptions); i++) {
 
                 break;
             case 1: // bargain
+				global.selectGold = Get_gold(item);
 				global.getbargain = true;  
                show_debug_message("bargain popup");
                 break;

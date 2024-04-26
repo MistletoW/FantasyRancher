@@ -6,4 +6,6 @@ getinput = false;
 
 global.getbargain = false;
 
+newprice = 0;
 
+option = 0;
