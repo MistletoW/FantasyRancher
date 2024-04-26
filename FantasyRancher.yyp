@@ -81,6 +81,7 @@
     {"id":{"name":"spr_brickx64","path":"sprites/spr_brickx64/spr_brickx64.yy",},},
     {"id":{"name":"obj_market","path":"objects/obj_market/obj_market.yy",},},
     {"id":{"name":"market_show_gold","path":"scripts/market_show_gold/market_show_gold.yy",},},
+    {"id":{"name":"obj_global_controller","path":"objects/obj_global_controller/obj_global_controller.yy",},},
     {"id":{"name":"spr_wood_floor","path":"sprites/spr_wood_floor/spr_wood_floor.yy",},},
     {"id":{"name":"spr_lasso_side","path":"sprites/spr_lasso_side/spr_lasso_side.yy",},},
     {"id":{"name":"spr_market_ui","path":"sprites/spr_market_ui/spr_market_ui.yy",},},
