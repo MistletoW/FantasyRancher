@@ -24,5 +24,7 @@ switch (global.item_information){
 
  draw_text(drawx + 15, drawy + 80, string("Market price:"));
  draw_text(drawx + 15, drawy + 100, string(global.selectGold));
+ draw_text(drawx + 15, drawy + 150, string("Your total gold:"));
+ draw_text(drawx + 15, drawy + 180, string(global.playergold));
 
 
