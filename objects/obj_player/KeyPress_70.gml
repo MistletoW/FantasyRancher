@@ -19,7 +19,7 @@ if (place_meeting(x, y, obj_untilled_dirt) && room == Farm1) {
 	    else if (tilledDirt.plant && tilledDirt.plant.isGrown) {
 			//HERE MAKE SURE THE INVENTORY ADDS 2-4 ORCHIDs
 			randomize();
-			var HarvestNum = random_range(2, 4);
+			var HarvestNum = irandom_range(2, 4);
 			Inventory_adding(global.player_inventory, 4 , HarvestNum);
 	        with (tilledDirt.plant) {
 	            instance_destroy();
