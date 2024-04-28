@@ -10,3 +10,8 @@ if (spooked) {
 if (sprite_index == spr_slime_caught) {
 	spd = 0;
 }
+
+// if in pen, domestic
+if (room != SlimeWilds) {
+	sprite_index = spr_slime_domestic;
+}
