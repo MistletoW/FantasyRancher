@@ -78,6 +78,7 @@
     {"name":"spr_toadstool","order":22,"path":"sprites/spr_toadstool/spr_toadstool.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"market_sell","order":5,"path":"scripts/market_sell/market_sell.yy",},
+    {"name":"spr_slime_domestic","order":48,"path":"sprites/spr_slime_domestic/spr_slime_domestic.yy",},
     {"name":"TileSet2","order":1,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"spr_teleporter_horizontal","order":34,"path":"sprites/spr_teleporter_horizontal/spr_teleporter_horizontal.yy",},
     {"name":"spr_bg_market","order":35,"path":"sprites/spr_bg_market/spr_bg_market.yy",},

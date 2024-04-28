@@ -122,6 +122,7 @@
     {"id":{"name":"spr_toadstool","path":"sprites/spr_toadstool/spr_toadstool.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"market_sell","path":"scripts/market_sell/market_sell.yy",},},
+    {"id":{"name":"spr_slime_domestic","path":"sprites/spr_slime_domestic/spr_slime_domestic.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"spr_teleporter_horizontal","path":"sprites/spr_teleporter_horizontal/spr_teleporter_horizontal.yy",},},
     {"id":{"name":"spr_bg_market","path":"sprites/spr_bg_market/spr_bg_market.yy",},},
