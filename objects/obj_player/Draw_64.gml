@@ -82,7 +82,7 @@ if(startMenu){
 	draw_set_halign(fa_center); 
 	draw_set_valign(fa_middle); 
 	
-	draw_text(view_wport[0]/2, view_hport[0]/2, "Welcome to Fantasy Rancher! \n Use arrow keys to move around \n In the wilds, press space to throw your lasso \n(hold to throw further) \n Hold enter to gather a plant \n Press E to till a field \n Press F to plant in the field or \nharvest plants from your field \n Press H to bring this back at any time \n Press escape to close this menu"); 
+	draw_text(view_wport[0]/2, view_hport[0]/2, "Welcome to Fantasy Rancher! \n Use arrow keys or WASD to move around \n In the wilds, press space to throw your lasso \n(hold to throw further) \n Hold enter to gather a plant \n Press E to till a field \n Press F to plant in the field or \nharvest plants from your field \n Press H to bring this back at any time \n Press escape to close this menu"); 
 	
 }
 
